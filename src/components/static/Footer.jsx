@@ -17,9 +17,9 @@ const Footer=()=>{
                         {/* It will take the user to the instagram link provided  */}
                         <a target = '_blank' href = 'https://www.instagram.com/sanganika_dduc/'><img src={process.env.PUBLIC_URL+'/svg/instagram.svg'} className=" mt-3" alt="not found"/></a>
                         {/* It will take the user to the facebook link provided  */}
-                        <a target = '_blank' href = 'https://www.facebook.com/'><img src={process.env.PUBLIC_URL+'/svg/facebook.svg'} className="mt-3" alt="not found"/></a>
+                        <a target = '_blank' href = 'https://www.facebook.com/sanganika/'><img src={process.env.PUBLIC_URL+'/svg/facebook.svg'} className="mt-3" alt="not found"/></a>
                         {/* It will take the user to the linkedin link provided  */}
-                        <a target = '_blank' href = 'https://www.linkedin.com/company/sangaika-dduc/'><img src={process.env.PUBLIC_URL+'/svg/linkedin.svg'} className="mt-3" alt="not found"/></a>
+                        <a target = '_blank' href = 'https://www.linkedin.com/company/sanganika-the-computer-science-society-dduc/'><img src={process.env.PUBLIC_URL+'/svg/linkedin.svg'} className="mt-3" alt="not found"/></a>
                     </div>
                 </div>
                 <div className="footer-card flex flex-col space-y-5">

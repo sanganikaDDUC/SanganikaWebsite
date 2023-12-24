@@ -187,7 +187,7 @@ function TeamPage() {
 								/>
 
 								<span className=" font-inter  text-white mt-4 text-lg font-semibold">
-									Amarjeet Jena
+									Girish Goyal
 								</span>
 
 								<div className="flex justify-center   mt-1 ">
@@ -284,13 +284,13 @@ function TeamPage() {
 					</>
 				</main>
 			</section>
-
+		{/* secratary */}
 			{/* Secretory and treasurer */}
 
 			<section className="flex justify-center mt-6 mb-6 ">
 				<main className="w-[700px] border-t-2 border-b-2 border-solid border-[#002A42]">
 					<h3 className="text-[#BCD1D9] font-bold text-lg mt-4 max-[700px]:ml-5 ">
-						Secretory and treasurer
+						Secratory and treasurer
 					</h3>
 
 					<section className="mt-7  grid grid-cols-3 gap-5 mb-7   max-[619px]:flex max-[619px]:flex-wrap max-[354px]:justify-center">
@@ -306,9 +306,9 @@ function TeamPage() {
 								Kunal Sharma
 							</span>
 
-							<div className="flex justify-center   mt-1 ">
-								<span className="flex bg-[#A3FD9B] text-black text-sm font-bold rounded-sm p-1  px-2 justify-center w-[155px]">
-									General Secretory
+							<div className="flex justify-center mt-1 ">
+								<span className="flex bg-[#A3FD9B] text-black text-[.84rem] font-bold rounded-sm p-1 px-2 justify-center">
+									General Secratory
 								</span>
 							</div>
 
@@ -358,8 +358,8 @@ function TeamPage() {
 							</span>
 
 							<div className="flex justify-center   mt-1 ">
-								<span className="flex bg-[#A3FD9B] text-black text-sm font-bold rounded-sm p-1  px-2 justify-center w-[155px]">
-									joint Secretory
+								<span className="flex bg-[#A3FD9B] text-black text-sm font-bold rounded-sm p-1 px-2 justify-center w-[155px]">
+									Joint Secratory
 								</span>
 							</div>
 
@@ -412,7 +412,7 @@ function TeamPage() {
 
 							<div className="flex justify-center   mt-1 ">
 								<span className="flex bg-[#A3FD9B] text-black text-sm font-bold rounded-sm p-1  px-2 justify-center w-[155px]">
-                  treasurer
+                  Treasurer
 								</span>
 							</div>
 
@@ -774,7 +774,7 @@ function TeamPage() {
 						</div>
 
 						{/* pro - 7 */}
-						<div className="w-[134px] ml-10">
+						<div className="ml-10">
 							{/* profile -- Mukul Dhasmana */}
 
 							<img
@@ -782,7 +782,7 @@ function TeamPage() {
 								className="w-[110px] ml-2"
 							/>
 
-							<span className=" font-inter  text-white mt-4 text-base ml-2 font-semibold">
+							<span className=" font-inter text-white mt-4 text-base ml-2 font-semibold">
 								Mukul Dhasmana
 							</span>
 
