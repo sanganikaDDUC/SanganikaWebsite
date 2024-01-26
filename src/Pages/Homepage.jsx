@@ -1,3 +1,4 @@
+import Sponser from "../components/static/Sponser";
 const Homepage=()=>{
     return(
         <div style = {{
@@ -39,7 +40,7 @@ const Homepage=()=>{
 					</p>
 				</div>
 			</div>
-			<div className="box2 flex px-[2rem] gap-[2rem]">
+			<div className="box2 flex flex-col px-[2rem] gap-[2rem]">
 				<img
 					src={process.env.PUBLIC_URL + "/images/home/us.png"}
 					className="h-auto bg-cover"
@@ -61,6 +62,7 @@ const Homepage=()=>{
 						shared sense of discovery.
 					</p>
 				</div>
+			<Sponser/>
 			</div>
 		</div>
     )
