@@ -1,10 +1,14 @@
 import Sponser from "../components/static/Sponser";
-const Homepage=()=>{
-    return(
-        <div style = {{
-			backgroundImage : `url(${process.env.PUBLIC_URL + '/images/home/dduc.png'})`,
-			backgroundRepeat : "no-repeat"
-		}} className="flex flex-col flex-grow bg-[#0D1117] sec-container text-white border-hidden pb-[4rem] gap-[4rem]">
+const Homepage = () => {
+	return (
+		<div
+			style={{
+				backgroundImage: `url(${process.env.PUBLIC_URL + "/images/home/dduc.png"})`,
+				backgroundRepeat: "no-repeat",
+				backgroundSize : "contain",
+			}}
+			className="flex flex-col flex-grow bg-[#0D1117] sec-container text-white border-hidden pb-[4rem] gap-[4rem]"
+		>
 			<div className="relative bg-cover hero pt-[4rem]">
 				<h1 className="text-4xl font-bold ml-[6%]">Let's get started</h1>
 				<div className="flex box1 items-center justify-between px-[5%] ">
@@ -62,9 +66,9 @@ const Homepage=()=>{
 						shared sense of discovery.
 					</p>
 				</div>
-			<Sponser/>
+				<Sponser />
 			</div>
 		</div>
-    )
+	);
 };
 export default Homepage;
