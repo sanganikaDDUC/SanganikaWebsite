@@ -4,7 +4,7 @@ function Cardstyle(props) {
 	return (
 		<div className="mt-10 relative">
 			<img
-				className="h-[7rem] absolute top-0 left-[-10px]"
+				className="h-[7rem] w-[7rem] aspect-square rounded-full border-2 border-slate-50 object-cover absolute top-0 left-[-10px]"
 				src={process.env.PUBLIC_URL + props.src}
 			/>
 			<div className="grid mt-5 text-white">
