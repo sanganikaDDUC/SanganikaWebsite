@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
-import { useNavigate, Link } from "react-router-dom";
 import TmEventCard from "../components/dymanic/TMEventCard";
 function TM({ events }) {
-	const navigate = useNavigate();
 	return (
 		<div className="text-white flex flex-col items-center bg-gradient-to-l from-[#ff075a17] to-[#0062ff22] p-[2rem]">
 			{/* logos */}
-			<div className="flex h-[200px] items-center self-center gap-[3rem]">
+			<div className="tm-logos flex h-[200px] items-center self-center gap-[3rem]">
 				<img
 					className="h-full"
 					src={process.env.PUBLIC_URL + "/images/home/logo.png"}
@@ -18,7 +15,7 @@ function TM({ events }) {
 				/>
 			</div>
 			{/* welcome message */}
-			<div className="flex flex-col items-center neon text-[5rem] mt-[3rem]">
+			<div className="tm-welcome flex flex-col items-center neon text-[5rem] mt-[3rem]">
 				<span className="inika-regular text-2xl">
 					Computer Science Department Presents
 				</span>
@@ -30,7 +27,7 @@ function TM({ events }) {
 
 			{/* schedule */}
 			<div className="flex flex-col self-center items-center mt-[3rem] p-[2rem] container">
-				<span className="text-[3rem] mb-[2rem] neon">Schedule</span>
+				<span className="tm-events text-[3rem] mb-[2rem] neon">Schedule</span>
 				<img
 					className="rounded-3xl neon-box"
 					src={process.env.PUBLIC_URL + "/images/tm/Schedule.png"}
@@ -45,7 +42,7 @@ function TM({ events }) {
 			</div>
 
 			{/* events registeration text*/}
-			<div className="inder-regular neon text-[3rem] flex items-center gap-[2rem] self-stretch px-[3rem] justify-center">
+			<div className="tm-events inder-regular neon text-[3rem] flex items-center gap-[2rem] self-stretch px-[3rem] justify-center">
 				<hr className="bg-white flex-grow h-[2px] neon-bar" />
 				<span>OUR EVENTS</span>
 				<hr className="bg-white flex-grow h-[2px] neon-bar" />

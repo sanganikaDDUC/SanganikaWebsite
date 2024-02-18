@@ -79,6 +79,23 @@ body {
 	width: 12vw;
 }
 
+.neon {
+	text-shadow: -0.2rem 0.1rem 0.2rem #b52c59, 0.2rem -0.1rem 0.2rem #0865fe;
+}
+.neon-bar {
+	box-shadow: -0.2rem 0.1rem 0.2rem #b52c59, 0.2rem -0.1rem 0.2rem #0865fe;
+}
+.neon-box {
+	box-shadow: -0.2rem 0.1rem 1rem #ff075a, 0.2rem -0.1rem 1rem #0062ff;
+}
+.neon-button {
+	@apply bg-gradient-to-l from-[#d607ffbd] to-[#0062ff] p-[2rem] text-white text-xl font-bold px-[1rem] py-[.3rem] rounded-lg m-[2rem];
+	transition: all 0.1s ease-in;
+	&:hover {
+		@apply hover:bg-gradient-to-l hover:from-[#0062ff] hover:to-[#d607ffbd] translate-y-[-2px];
+	}
+}
+
 @media (max-width: 1210px) {
 	.box2 .box2-card2 p {
 		@apply text-base;
@@ -126,6 +143,23 @@ body {
 	.hero p {
 		@apply text-xl;
 	}
+	.tm-logos {
+		height: 150px;
+	}
+	.tm-welcome span {
+		&:first-child {
+			@apply text-xl;
+		}
+		&:last-child {
+			@apply text-xl;
+		}
+	}
+	.tm-welcome {
+		font-size: 3.75rem;
+	}
+	.tm-events {
+		font-size: 2.5rem;
+	}
 }
 
 @media (max-width: 630px) {
@@ -143,9 +177,22 @@ body {
 		width: 100%;
 		@apply text-base;
 	}
-	.alumni-card img {
-		width: 100px;
-		/* display: none; */
+	.tm-logos {
+		height: 100px;
+	}
+	.tm-welcome span {
+		&:first-child {
+			@apply text-base;
+		}
+		&:last-child {
+			@apply text-lg;
+		}
+	}
+	.tm-welcome {
+		font-size: 2.25rem;
+	}
+	.tm-events {
+		font-size: 2rem;
 	}
 }
 @media (max-width: 536px) {
@@ -158,6 +205,12 @@ body {
 	.box2 .box2-card2 p {
 		width: 100%;
 		@apply text-sm;
+	}
+	.neon-button {
+		@apply text-sm;
+	}
+	.tm-events {
+		font-size: 1.6rem;
 	}
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
@@ -208,6 +261,9 @@ body {
 	.academics .tab-nav {
 		@apply text-xl;
 	}
+	.tm-events {
+		font-size: 1.3rem;
+	}
 }
 @media (max-width: 970px) {
 	.sponser-cont {
@@ -223,23 +279,6 @@ body {
 		align-items: center;
 		height: 50vh;
 		margin-top: 1rem;
-	}
-}
-
-.neon {
-	text-shadow: -0.2rem 0.1rem 0.2rem #b52c59, 0.2rem -0.1rem 0.2rem #0865fe;
-}
-.neon-bar {
-	box-shadow: -0.2rem 0.1rem 0.2rem #b52c59, 0.2rem -0.1rem 0.2rem #0865fe;
-}
-.neon-box {
-	box-shadow: -0.2rem 0.1rem 1rem #ff075a, 0.2rem -0.1rem 1rem #0062ff;
-}
-.neon-button {
-	@apply bg-gradient-to-l from-[#d607ffbd] to-[#0062ff] p-[2rem] text-white text-xl font-bold px-[1rem] py-[.3rem] rounded-lg m-[2rem];
-	transition: all 0.1s ease-in;
-	&:hover {
-		@apply hover:bg-gradient-to-l hover:from-[#0062ff] hover:to-[#d607ffbd] translate-y-[-2px];
 	}
 }
 
