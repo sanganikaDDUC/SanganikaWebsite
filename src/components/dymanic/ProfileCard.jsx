@@ -8,9 +8,9 @@ function ProfileCard(props) {
 			<div className="alumni-card w-96 h-auto p-0.5 flex relative my-5 md:mx-2.5 mx-0 font-Inter ">
 				{/* profile image*/}
 				<img
-					src={props.image}
+					src={process.env.PUBLIC_URL + props.image}
 					alt=""
-					className="w-24 h-20 border-2 border-[#bcd1d9] rounded-full relative my-auto scale-[1.5] left-[8.5%] z-[999] bg-[#0D1117]"
+					className="object-cover w-24 h-20 border-2 border-[#bcd1d9] rounded-full relative my-auto scale-[1.5] left-[8.5%] z-[999] bg-[#0D1117]"
 				/>
 				{/* profile data section */}
 				<div className="profile-details w-full">
