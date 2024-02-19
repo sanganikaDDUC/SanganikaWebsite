@@ -10,14 +10,13 @@ function TMEvent({ events }) {
 	const [parsed, setParsed] = useState("");
 	const event = events?.filter((item) => item.id === id)[0];
 	useEffect(() => {
+		if (!event) return;
 		fetch(process.env.PUBLIC_URL + event?.description)
 			.then((res) => res.text())
 			.then((data) => {
 				setParsed(DOMPurify.sanitize(marked(data)));
 			});
 	}, [event]);
-
-	console.log(event?.register);
 
 	return (
 		<>

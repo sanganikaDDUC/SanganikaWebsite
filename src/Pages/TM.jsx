@@ -30,12 +30,12 @@ function TM({ events }) {
 				<span className="tm-events text-[3rem] mb-[2rem] neon">Schedule</span>
 				<img
 					className="rounded-3xl neon-box"
-					src={process.env.PUBLIC_URL + "/images/tm/Schedule.png"}
+					src={process.env.PUBLIC_URL + "/images/TM/Schedule.png"}
 				/>
 				<a
 					className="neon-button"
-					href={process.env.PUBLIC_URL + "/images/tm/Schedule.png"}
-					download={process.env.PUBLIC_URL + "/images/tm/Schedule.png"}
+					href={process.env.PUBLIC_URL + "/images/TM/Schedule.png"}
+					download={process.env.PUBLIC_URL + "/images/TM/Schedule.png"}
 				>
 					Download Schedule
 				</a>

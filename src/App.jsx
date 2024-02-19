@@ -16,7 +16,6 @@ const App = () => {
 		fetch(process.env.PUBLIC_URL + "/json/TM.json")
 			.then((res) => res.json())
 			.then((data) => {
-				console.log(data);
 				setTMEvents(data);
 			})
 			.catch((err) => console.log(err));
