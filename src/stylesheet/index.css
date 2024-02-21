@@ -96,6 +96,35 @@ body {
 	}
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.academics a {
+	@apply text-[#62C6FF] underline;
+}
+.academics h1 {
+	@apply text-4xl;
+}
+.academics h4 {
+	@apply text-2xl font-bold;
+}
+.academics li {
+	@apply text-base;
+}
+.academics .nested-li {
+	@apply marker:text-[#62C6FF] ml-4;
+}
+
+.inika-regular {
+	font-family: "Inika", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.inder-regular {
+	font-family: "Inder", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 @media (max-width: 1210px) {
 	.box2 .box2-card2 p {
 		@apply text-base;
@@ -124,18 +153,10 @@ body {
 	}
 }
 
-@media (max-width: 800px) {
-	.footer-cont .footer-boxes {
-		grid-template-columns: none;
-		grid-template-rows: repeat(3, auto);
-	}
-	.footer-cont .footer-boxes .footer-card:nth-child(2) p {
-		@apply self-start;
-	}
-	.footer-cont .footer-boxes .footer-card:nth-child(2) div {
-		@apply justify-start;
-	}
+@media (max-width: 970px) {
+}
 
+@media (max-width: 800px) {
 	.box1 img {
 		width: 180px;
 		height: auto;
@@ -159,6 +180,21 @@ body {
 	}
 	.tm-events {
 		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.academics .content {
+		@apply py-[3rem];
+	}
+	.academics .content .sem-container .header h1 {
+		@apply text-3xl;
+	}
+	.academics li {
+		@apply flex flex-col;
+	}
+	.academics .tab-nav {
+		@apply text-2xl;
 	}
 }
 
@@ -194,7 +230,11 @@ body {
 	.tm-events {
 		font-size: 2rem;
 	}
+	.sponsor-card img {
+		@apply w-[150px] h-[150px];
+	}
 }
+
 @media (max-width: 536px) {
 	.box1 {
 		@apply flex-col;
@@ -213,38 +253,7 @@ body {
 		font-size: 1.6rem;
 	}
 }
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-.academics a {
-	@apply text-[#62C6FF] underline;
-}
-.academics h1 {
-	@apply text-4xl;
-}
-.academics h4 {
-	@apply text-2xl font-bold;
-}
-.academics li {
-	@apply text-base;
-}
-.academics .nested-li {
-	@apply marker:text-[#62C6FF] ml-4;
-}
-
-@media (max-width: 768px) {
-	.academics .content {
-		@apply py-[3rem];
-	}
-	.academics .content .sem-container .header h1 {
-		@apply text-3xl;
-	}
-	.academics li {
-		@apply flex flex-col;
-	}
-	.academics .tab-nav {
-		@apply text-2xl;
-	}
-}
 @media (max-width: 425px) {
 	.academics .content {
 		@apply px-[1.5rem];
@@ -264,31 +273,4 @@ body {
 	.tm-events {
 		font-size: 1.3rem;
 	}
-}
-@media (max-width: 970px) {
-	.sponser-cont {
-		height: 140vh;
-	}
-	.sponser-heading {
-		font-size: 2rem;
-	}
-	.sponser-boxes {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		height: 50vh;
-		margin-top: 1rem;
-	}
-}
-
-.inika-regular {
-	font-family: "Inika", serif;
-	font-weight: 400;
-	font-style: normal;
-}
-.inder-regular {
-	font-family: "Inder", sans-serif;
-	font-weight: 400;
-	font-style: normal;
 }

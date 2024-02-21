@@ -111,7 +111,7 @@ const excu = [
 		post: "Executive",
 		src: "/images/teamImages/ex4.png",
 		linkdin: "#",
-		ph: "+91 0000000000",
+		ph: "+91 8766381640",
 		id: 4,
 	},
 
