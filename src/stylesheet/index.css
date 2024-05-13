@@ -89,7 +89,7 @@ body {
 	box-shadow: -0.2rem 0.1rem 1rem #ff075a, 0.2rem -0.1rem 1rem #0062ff;
 }
 .neon-button {
-	@apply bg-gradient-to-l from-[#d607ffbd] to-[#0062ff] p-[2rem] text-white text-xl font-bold px-[1rem] py-[.3rem] rounded-lg m-[2rem];
+	@apply bg-gradient-to-l from-[#d607ffbd] to-[#0062ff] p-[2rem] text-white text-xl font-bold px-[1rem] py-[.3rem] rounded-lg my-[2rem];
 	transition: all 0.1s ease-in;
 	&:hover {
 		@apply hover:bg-gradient-to-l hover:from-[#0062ff] hover:to-[#d607ffbd] translate-y-[-2px];

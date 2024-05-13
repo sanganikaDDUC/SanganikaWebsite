@@ -8,7 +8,7 @@ function classNames(...classes) {
 }
 export default function Header() {
 	const [navigation, setNavigation] = useState([
-		{ name: "Home", href: "/", current: true },
+		{ name: "Home", href: "/home", current: true },
 		{ name: "Academics", href: "/academic", current: false },
 		{ name: "Events", href: "/event", current: false },
 		{ name: "Alumni", href: "/alumni", current: false },

@@ -1,5 +1,16 @@
 import TmEventCard from "../components/dymanic/TMEventCard";
 function TM({ events }) {
+	function scrollToRegister(event) {
+		event.preventDefault(); // Prevents the default behavior of the link
+
+		const registerSection = document.getElementById("register");
+
+		if (registerSection) {
+			registerSection.scrollIntoView({
+				behavior: "smooth", // You can also use 'auto' for instant scrolling
+			});
+		}
+	}
 	return (
 		<div className="text-white flex flex-col items-center bg-gradient-to-l from-[#ff075a17] to-[#0062ff22] p-[2rem]">
 			{/* logos */}
@@ -8,7 +19,6 @@ function TM({ events }) {
 					className="h-full"
 					src={process.env.PUBLIC_URL + "/images/home/logo.png"}
 				/>
-				<span className="text-3xl">X</span>
 				<img
 					className="h-[70%]"
 					src={process.env.PUBLIC_URL + "/svg/TM-white.svg"}
@@ -23,6 +33,11 @@ function TM({ events }) {
 				<span className="inder-regular text-[2rem]">
 					2<sup>nd</sup> - 3<sup>rd</sup> march
 				</span>
+			</div>
+			<div className="mt-12">
+				<a href="#register" onClick={scrollToRegister} className="neon-button">
+					TM Registerations
+				</a>
 			</div>
 
 			{/* schedule */}
@@ -42,7 +57,10 @@ function TM({ events }) {
 			</div>
 
 			{/* events registeration text*/}
-			<div className="tm-events inder-regular neon text-[3rem] flex items-center gap-[2rem] self-stretch px-[3rem] justify-center">
+			<div
+				className="tm-events inder-regular neon text-[3rem] flex items-center gap-[2rem] self-stretch px-[3rem] justify-center"
+				id="register"
+			>
 				<hr className="bg-white flex-grow h-[2px] neon-bar" />
 				<span>OUR EVENTS</span>
 				<hr className="bg-white flex-grow h-[2px] neon-bar" />
