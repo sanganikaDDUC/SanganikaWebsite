@@ -26,8 +26,8 @@ const App = () => {
 		<>
 			<Header />
 			<Routes>
-				{/* This route will direct to the Tech Marathon Page  */}
-				<Route path="/" element={<TM events={TMEvents}/>} />
+				{/* This root route will direct to the Home Page  */}
+				<Route path="/" element={<Homepage/>} />
 				{/* This route will direct to the homepage  */}
 				<Route path="/home" element={<Homepage/>} />
 				{/* This route will direct to the Academics  */}

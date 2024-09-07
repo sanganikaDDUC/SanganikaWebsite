@@ -328,7 +328,7 @@ const data = {
 		},
 		{
 			sem: 5,
-			time_table: "#",
+			time_table: process.env.PUBLIC_URL + "/images/timetable/cs/sem5.jpg",
 			subjects: [
 				{
 					name: "Internet Technoligies",
