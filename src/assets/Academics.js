@@ -328,7 +328,7 @@ const data = {
 		},
 		{
 			sem: 5,
-			time_table: "#",
+			time_table: process.env.PUBLIC_URL + "/images/timetable/cs/sem5.jpg",
 			subjects: [
 				{
 					name: "Internet Technoligies",
@@ -1009,7 +1009,7 @@ const data = {
 
 		{
 			sem: 5,
-			time_table: "",
+			time_table: process.env.PUBLIC_URL + "/images/timetable/pscs/sem5.jpg",
 			subjects: [
 				{
 					name: "Database Management System",
