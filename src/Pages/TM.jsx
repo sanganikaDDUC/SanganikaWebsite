@@ -31,7 +31,7 @@ function TM({ events }) {
         </span>
         <span className="inder-regular">Tech Marathon'25</span>
         <span className="inder-regular text-[2rem]">
-          2<sup>nd</sup> - 3<sup>rd</sup> march
+          1<sup>st</sup> march
         </span>
       </div>
       <div className="mt-12">

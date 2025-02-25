@@ -54,8 +54,8 @@ const president = [
 
 const sec = [
   {
-    name: "Atulya Shrivastav",
-    post: "General Secretory",
+    name: "Atulya Shashwat",
+    post: "General Secretary",
     src: "/images/teamImages/GENSEC.png",
     linkdin:
       "https://www.linkedin.com/in/atulya-shashwat-967939297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
