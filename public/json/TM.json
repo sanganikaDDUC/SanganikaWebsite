@@ -7,7 +7,7 @@
 		"description": "/content/TM/aob.md",
 		"poster": "/images/TM/Auction_of_Bytes.png",
 		"id": "aob",
-		"register": ""
+		"register": "https://forms.gle/nZm9RX1FHDG7YTXz5"
 	},
 	{
 		"name": "Tech Wars",
@@ -17,7 +17,7 @@
 		"description": "/content/TM/techwar.md",
 		"poster": "/images/TM/Tech_Wars.png",
 		"id": "techwar",
-		"register": "https://forms.gle/p8yFii7asTtccuUN8"
+		"register": "https://forms.gle/mHCRbRCQs1CQGakUA"
 	},
 	{
 		"name": "Turn Court",
@@ -27,7 +27,7 @@
 		"description": "/content/TM/turncourt.md",
 		"poster": "/images/TM/Turn_Court.png",
 		"id": "turncourt",
-		"register": "https://forms.gle/U5oJw8G7bE3GEqVG7"
+		"register": "https://forms.gle/ntVHtLa3AQQwHdMx6"
 	},
 	{
 		"name": "Valorant",
@@ -37,7 +37,7 @@
 		"description": "/content/TM/valorant.md",
 		"poster": "/images/TM/Valorant.png",
 		"id": "valorant",
-		"register": ""
+		"register": "https://forms.gle/4RScWNfV28za9NAz6"
 	},
 	
 	{
@@ -48,7 +48,7 @@
 		"description": "/content/TM/blindcode.md",
 		"poster": "/images/TM/Blind_Code.png",
 		"id": "blindcode",
-		"register": ""
+		"register": "https://forms.gle/v9ude86ySbyrK3pQ6"
 	},
 	{
 		"name": "Code Benders",
@@ -58,7 +58,7 @@
 		"description": "/content/TM/codebender.md",
 		"poster": "/images/TM/Code_Benders.png",
 		"id": "codebender",
-		"register": ""
+		"register": "https://forms.gle/ouMVtiPKMvDSat9BA"
 	},
 	{
 		"name": "Bumble Jumble",
@@ -68,7 +68,7 @@
 		"description": "/content/TM/bumble.md",
 		"poster": "/images/TM/Bumble_Jumble.png",
 		"id": "bumblejumble",
-		"register": ""
+		"register": "https://forms.gle/LrPRBr8fqC4K4tUV7"
 	},
 	{
 		"name": "Gamers Roulette",
@@ -78,7 +78,7 @@
 		"description": "/content/TM/gamer.md",
 		"poster": "/images/TM/Gamers_Roulette.jpg",
 		"id": "gamerroulette",
-		"register": "https://forms.gle/Ji64qkcya4rtgCsF9"
+		"register": "https://forms.gle/h8mGEs8oyzqbcGWFA"
 	},
 	{
 		"name": "Tech Escapade",
@@ -88,6 +88,6 @@
 		"description": "/content/TM/techescapade.md",
 		"poster": "/images/TM/Tech_Escapade.png",
 		"id": "techescapade",
-		"register": ""
+		"register": "https://forms.gle/HDnWhzauwH6JKoqJ6"
 	}
 ]
