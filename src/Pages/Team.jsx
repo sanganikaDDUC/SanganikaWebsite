@@ -63,7 +63,7 @@ function App() {
 
           <section className="py-7 lg:mx-[6rem] mt-[11rem] border-t-2 border-solid border-[#002A42]  ">
             <h2 className="text-[#BCD1D9] font-semibold text-[3rem] mb-10 text-center">
-              Council 2023-24
+              Council 2024-2025
             </h2>
             <h2 className=" text-[#BCD1D9] font-semibold text-xl text-left mt-0 mb-3 ">
               Presidents
